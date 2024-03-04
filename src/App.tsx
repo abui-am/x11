@@ -55,7 +55,7 @@ function App() {
         I took this as investment, I want to invest my time, my energy, and my
         love.
       </p>
-      <p>As Nadin Amizah said</p>
+      <p>Like Nadin Amizah said:</p>
       <p>
         <i>
           Aku tahu, kamu lahir dari Cantik utuh cahaya rembulan Sedang aku dari
@@ -74,7 +74,7 @@ function App() {
           marginBottom: 32,
         }}
       >
-        So Do you wanna be my <b>Girlfriend?</b> 💐
+        At this 4th of March 2024, Do you wanna be my <b>Girlfriend?</b> 💐
         <br />
       </p>
       <button
