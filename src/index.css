@@ -1,0 +1,134 @@
+:root {
+  font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #FFE6E6;
+  text-align: left;
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #000000
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  color : #522e38;
+  margin-bottom: 24px;
+}
+
+i {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1 !important;
+  font-style: italic;
+}
+button {
+  width: 100%;
+  background-color: #522e38;
+  margin-bottom: 16px;
+  border: 1px solid #522e38;
+  color: #ffffff;
+  font-size: 20px;
+}
+.Snow{
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.Snowflake {
+	display: inline-block;
+	width: 0.1%;
+	color: #FFFAFA;
+	opacity: 0;
+	font-size: 120px;
+	margin: 0;
+	padding: 0;
+	animation: fall 16s linear infinite;
+}
+
+@keyframes fall {
+	0% {
+		opacity: 0;
+	}
+	3% {
+		opacity: 0.9;
+	}
+
+	90% {
+		opacity: 0.9;
+	}
+	100% {
+		transform: translate(0, 97vh);
+		opacity: 0;
+	}
+}
+
